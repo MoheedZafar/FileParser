@@ -21,10 +21,6 @@ import PyPDF2
 from PyPDF2 import PdfFileWriter, PdfFileReader
 import fitz #pip install PyMuPDF
 
-import tkinter as to 
-import tkinter.ttk as ttk
-from  tkinter.filedialog import askopenfile
-from tkinter.messagebox  import showinfo
 
 app = Flask(__name__)
 
